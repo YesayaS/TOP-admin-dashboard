@@ -134,6 +134,14 @@ button {
   gap: 20px;
 }
 
+.user-buttons > button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--main-color);
+}
+
 .main-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
